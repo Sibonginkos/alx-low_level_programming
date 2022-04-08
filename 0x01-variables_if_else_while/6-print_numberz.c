@@ -3,16 +3,17 @@
  * main - Entry point
  * Return: Always 0 (Success)
  */
- 
+
 int main(void)
 {
-	int num;
-	for (num = 0; num < 10; num ++)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		putchar(num);
+		printf("%d", i);
 	}
 	{
-		putchar('\n');
+		printf("\n");
 	}
 	return (0);
 }
