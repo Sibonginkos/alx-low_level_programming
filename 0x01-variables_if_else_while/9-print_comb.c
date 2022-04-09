@@ -12,16 +12,12 @@ int mai(void)
 	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
+		if (i != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-	if (i != 9)
-	{
-		putchar(',');
-	}
-	{
-		putchar(' ');
-	}
-	{
 		putchar('\n');
-	}
-	return (0);
+		return (0);
 }
