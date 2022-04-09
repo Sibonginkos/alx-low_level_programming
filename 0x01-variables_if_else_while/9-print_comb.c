@@ -8,12 +8,16 @@
 int mai(void)
 {
 	int i;
-	for (i = 0; i < 10; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		putchar("i, ")
+		putchar(i);
+	}
+	if (i != 9)
+	{
+		putchar(',');
 	}
 	{
-		putchar(%i);
+		putchar(' ');
 	}
 	{
 		putchar('\n');
