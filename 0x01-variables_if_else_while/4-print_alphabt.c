@@ -8,12 +8,9 @@
 int main(void)
 {
 	int ch;
+
 	for(ch = 'a'; ch = 'z'; ch != 'e'; ch != 'q'; ch++)
-	{
 		putchar(ch);
-	}
-	{
 		putchar('\n');
-	}
-	return (0);
+		return (0);
 }
