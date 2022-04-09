@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - possible combinatin of single digit numbers
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 
 int mai(void)
 {
 	int i;
+
 	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);

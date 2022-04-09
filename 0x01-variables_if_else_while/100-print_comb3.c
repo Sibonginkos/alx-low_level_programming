@@ -7,10 +7,11 @@
 
 int main(void)
 {
-	int i,p;
+	int i ,p;
+
 	for (i = '0'; i < '9'; i++)
 	{	
-		for (p = i + 1; p <== 9; p++)
+		for (p = i + 1; p <= 9; p++)
 		{
 			if (p != 9)
 			{
