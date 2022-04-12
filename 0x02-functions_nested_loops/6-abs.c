@@ -4,13 +4,12 @@
 
 /**
  * int _abs - Print absolute values of intergers
+ * @r: Input interger
  * Return: Absolute value of r
  */
 
-int _abs(int)
+int _abs(int r)
 {
-	int r;
-
 	if (r >= 0)
 		return (r);
 	else
