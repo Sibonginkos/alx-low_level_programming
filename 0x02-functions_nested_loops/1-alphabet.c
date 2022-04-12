@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Check description
+ * print_alphabet - Check description
  * Description: Prints lower cases alphabets followed by a new line
  * Return: Always 0 (succes)
  */
