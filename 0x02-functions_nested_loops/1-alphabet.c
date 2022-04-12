@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - Description 
- * Description: prints lower cases alphabets followed by a new line
+ * main - Check description
+ * Description: Prints lower cases alphabets followed by a new line
  * Return: Always 0 (succes)
  */
 
