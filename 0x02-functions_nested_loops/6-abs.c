@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * int _abs - Print absolute values of intergers
+ * _abs - Print absolute values of intergers
  * @r: Input interger
  * Return: Absolute value of r
  */
