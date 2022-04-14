@@ -13,14 +13,22 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i *= 3)
+		if (i % 3 == 0 && i % 5 == 0)
+		{
+			_putchar("FizzBuzz");
+		}
+		else if (i % 3 == 0)
+		{
 			_putchar("fizz ");
-
-		else if (i *= 5)
+		}
+		else if (i % 5 == 0)
+		{
 			_putchar("Buzz ");
-
+		}
 		else
+		{
 			_putchar("i ");
+		}
 	}
 	return (0);
 }
