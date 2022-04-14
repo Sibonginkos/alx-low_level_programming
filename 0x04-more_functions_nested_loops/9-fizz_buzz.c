@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -15,10 +16,11 @@ int main(void)
 		if (i *= 3)
 			_putchar("fizz ");
 
-		if else (i *= 5)
+		else if (i *= 5)
 			_putchar("Buzz ");
 
 		else
-			_putchar(i" ");
+			_putchar("i ");
 	}
+	return (0);
 }

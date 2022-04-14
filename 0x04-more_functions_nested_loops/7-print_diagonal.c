@@ -8,12 +8,12 @@
 
 void print_diagonal(int n)
 {
-	int n;
+	char n;
 	n = "'\'";
 
 	if (n > 0)
-		_putchar("'\n"'\n');
+		_putchar("\\n");
 
-	if else (n <= 0)
+	else if(n <= 0)
 		_putchar('\n');
 }

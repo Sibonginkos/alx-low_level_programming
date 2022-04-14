@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * mul - multiplies two intergers
@@ -9,6 +10,6 @@
 int mul(int a, int b)
 {
 	int mul;
-	mul = a * b
+	mul = a * b;
 		_putchar(mul);
 }

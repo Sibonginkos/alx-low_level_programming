@@ -6,7 +6,7 @@
  * Return: 1 if uppercase otherwise 0
  */
 
-int _isupper(int n)
+int _isupper(int c)
 {
 	char i;
 	int upper = 0;
