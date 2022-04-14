@@ -29,5 +29,7 @@ int main(void)
 			_putchar("%d " i);
 		}
 	}
+	printf("Buzz\n");
+
 	return (0);
 }
