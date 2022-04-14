@@ -8,12 +8,12 @@
 
 int _isupper(int c)
 {
-	char i;
+	char c;
 	int upper = 0;
 
-	for (i = 'A'; i = 'Z'; i++)
+	for (c = 'A'; c = 'Z'; i++)
 	{
-		if (i == c)
+		if (c == c)
 			upper = 1;
 	}
 
