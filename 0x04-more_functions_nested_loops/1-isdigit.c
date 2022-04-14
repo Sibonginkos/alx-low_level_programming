@@ -9,9 +9,9 @@
 int _isdigit(int c)
 {
 	int j;
-	int digit = 0;
 
-	for (j = 0; j <=9; j++)
+	int digit = 0;
+	for (j = 0; j <= 9; j++)
 	{
 		if (j == c)
 			digit = 1;
