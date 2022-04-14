@@ -13,21 +13,21 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if (i % 15 == 0)
 		{
-			_putchar("FizzBuzz");
+			_putchar("FizzBuzz\t");
 		}
 		else if (i % 3 == 0)
 		{
-			_putchar("fizz ");
+			_putchar("fizz\t");
 		}
 		else if (i % 5 == 0)
 		{
-			_putchar("Buzz ");
+			_putchar("Buzz\t");
 		}
 		else
 		{
-			_putchar("i ");
+			_putchar("%d\t, i");
 		}
 	}
 	return (0);
