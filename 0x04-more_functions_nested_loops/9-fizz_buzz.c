@@ -10,9 +10,9 @@ int main(void)
 {
 	int i = 1;
 
-	for (; i <= 100; i++) 
+	for (; i < 100; i++) 
 	{
-		if (i % 15 == 0)
+		if (i % 3 == 0 && 1 % 5 == 0)
 		{
 			_putchar("FizzBuzz ");
 		}
