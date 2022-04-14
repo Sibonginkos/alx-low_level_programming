@@ -15,19 +15,19 @@ int main(void)
 	{
 		if (i % 15 == 0)
 		{
-			_putchar("FizzBuzz\t");
+			_putchar("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			_putchar("fizz\t");
+			_putchar("fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			_putchar("Buzz\t");
+			_putchar("Buzz ");
 		}
 		else
 		{
-			_putchar("%d\t, i");
+			_putchar("i ");
 		}
 	}
 	return (0);
