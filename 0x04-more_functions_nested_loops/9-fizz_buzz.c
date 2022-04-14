@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -9,9 +8,9 @@
 
 int main(void)
 {
-	int i;
+	int i = 1;
 
-	for (i = 1; i <= 100; i++)
+	for (; i <= 100; i++) 
 	{
 		if (i % 15 == 0)
 		{
@@ -27,7 +26,7 @@ int main(void)
 		}
 		else
 		{
-			_putchar("i ");
+			_putchar("%d " i);
 		}
 	}
 	return (0);
