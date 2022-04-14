@@ -2,7 +2,8 @@
 
 /**
  * mul - multiplies two intergers
- * @a&c - input intergers
+ * @a - input intergers
+ * @c - input integer
  * Return: No return
  */
 
