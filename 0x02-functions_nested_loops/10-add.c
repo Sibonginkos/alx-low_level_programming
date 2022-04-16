@@ -2,8 +2,8 @@
 
 /**
  * add - Adds two integers
- * @a - input character
- * @b input character
+ * @a - Input character
+ * @b - Input character
  * Return: Nothing
  */
 
