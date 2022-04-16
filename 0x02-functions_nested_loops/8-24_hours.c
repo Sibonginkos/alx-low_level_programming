@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer(void) - prints evry minute of the day
+ * jack_bauer - prints evry minute of the day
  * Return: Nothing
  */
 
@@ -18,6 +18,7 @@ void jack_bauer(void)
 			_putchar(':');
 			_putchar((M / 10) + '0');
 			_putchar((M % 10) + '0');
+			_putchar('\n');
 		}
 	}
 }
