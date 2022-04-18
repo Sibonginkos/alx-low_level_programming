@@ -2,7 +2,7 @@
 
 /**
  * print_square - Prints a square
- * @n - input character
+ * @size: input integer
  * Return: Nothing
  */
 
