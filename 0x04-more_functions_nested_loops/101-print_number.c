@@ -2,19 +2,19 @@
 
 /**
  * print_number - prints an integer
- * @n - input integer
+ * @n: input integer
  * Results: Nothing
  */
 
 void print_mumber(int n)
 {
-	if (n / 10 != 0)
+	if (n == 0)
+		_putchar('0');
+	else if (n < 0)
 	{
-		_putchar(n % 10);
-		print_number((n - 1 % 10) / 10);
+		_putchar('-');
+		print_integer(n * -1);
 	}
-	else if ((n / 10 == 0) && (n % 10 != 0) && (n > 0))
-		_putchar(n % 10);
-	else if ((n /10 ==0) && (n % 10 != 0) && (n <= 0))
-		_putchar(-n % 10);
+	else
+		print_integer(n);
 }
