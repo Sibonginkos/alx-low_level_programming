@@ -2,7 +2,7 @@
 
 /**
  * print_line - draws a straigt line in terminal
- * @n - input character
+ * @n: input character
  * Return: Nothing
  */
 
