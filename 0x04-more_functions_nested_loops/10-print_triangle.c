@@ -9,6 +9,7 @@
 void print_triangle(int size)
 {
 	char size;
+
 	size = '#';
 
 	if (size > 0)
