@@ -9,13 +9,16 @@
 
 int _isupper(int c)
 {
-	int c;
+	char uppercase = 'A';
 	int upper = 0;
 
-	for (c = 'A'; c = 'Z'; i++)
+	for (; uppercase <= 'Z'; uppercase++)
 	{
-		if (c == c)
+		if (c == uppercase)
+		{
 			upper = 1;
+			break;
+		}
 	}
 
 	return (upper);
