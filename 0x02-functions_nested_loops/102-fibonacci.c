@@ -18,9 +18,9 @@ int main(void)
 	{
 		f[i] = f[i - 1] + f[i - 2];
 		if (i == 49)
-			printf("%ld\n", f[i];
+			printf("%ld\n", f[i]);
 		else
-			printf("%ld, ", f[i];
+			printf("%ld, ", f[i]);
 	}
 	return (0);
 }
