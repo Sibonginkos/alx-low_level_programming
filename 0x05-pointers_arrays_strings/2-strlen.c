@@ -4,13 +4,14 @@
 /**
  * _strlen - Returns string length
  * @s: Input integer pointer
- * Return: Always 0
+ * Return: Nothing
  */
 
 int _strlen(char *s)
 {
-	int len;
+	int len = 0;
 
-	len = _strlen(s);
+	while (s[len] != '\0');
+		len++;
 	return (len);
 }
