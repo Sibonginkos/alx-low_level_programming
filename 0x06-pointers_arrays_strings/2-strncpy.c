@@ -3,7 +3,7 @@
 /**
  * _strncpy - Copies a string
  * @dest: Destination pointer to a character
- * @@src: Pointer to a character, source
+ * @src: Pointer to a character, source
  * @n: An input integer
  * Return: Always 0
  */
