@@ -9,7 +9,8 @@
 void print_number(int n)
 {
 	int i = 0;
-	
+
+	for ( ; i < n; i++)
 	if (n == 0)
 		_putchar('0');
 	else if (n < 0)
