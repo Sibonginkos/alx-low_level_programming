@@ -3,14 +3,14 @@
 /**
  * rot13 - Encodes a string using rot13
  * @s: An input character pointer
- * Return: Always 0
+ * Return: Encode string
  */
 
 char *rot13(char *s)
 {
 	int i;	
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[i] != '\0')
 	{
 		while ((s[i] >= 'A' && s[i] <= 'Z') || (s[i] >= 'a' && s[i] <= 'z'))
 		{
@@ -18,7 +18,9 @@ char *rot13(char *s)
 				s[i] = s[i] + 13;
 			else
 				s[i] = s[i] - 13;
+			i++;
 		}
+		i++;
 	}
-	return (0);
+	return (s);
 }
