@@ -10,12 +10,12 @@ char *leet(char *s)
 {
 	char *r = s;
 	int i;
-	char m[] = {'a', 'e', 'o', 't', 'l',};
-	char n[] = {4, 3, 0, 7, 1};
+	char m[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	char n[] = {4, 4, 3, 3, 0, 0, 7, 7, 1, 1};
 
 	while (*s)
 	{
-		for (i = 0; i < 5; i++)
+		for (i = 0; i < 10; i++)
 		{
 			if (*s == m[i] || *s == n[i] - 32)
 				*s = n[i] + '0';
