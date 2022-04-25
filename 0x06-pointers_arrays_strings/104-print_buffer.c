@@ -15,7 +15,7 @@ void print_buffer(char *b, int size)
 	{
 		if (i % 10)
 			printf(" ");
-		if else (!(i % 10) && i)
+		if (!(i % 10) && i)
 			printf("\n")
 	}
 	printf("0x%02x", b[i]);
