@@ -18,7 +18,7 @@ int is_palindrome(char *s)
 		{
 			return (0);
 		}
-		else	
+		else
 			return (1);
 	}
 	return (is_palindrome(s - 1));
