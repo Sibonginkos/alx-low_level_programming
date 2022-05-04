@@ -20,8 +20,8 @@ char *_strdup(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		len++;
-		s[i] = str[i];
 	}
-	free(s);
+	for (i= 0; str[i] != '\0'; i++)
+		s[i] = str[i];
 	return (s);
 }
