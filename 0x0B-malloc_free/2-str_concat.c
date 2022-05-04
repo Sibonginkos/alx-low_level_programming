@@ -21,7 +21,7 @@ char *str_concat(char *s1, char *s2)
 	s = malloc(t3);
 
 	if (s == NULL)
-		return ('\0');
+		return (NULL);
 	if (s != NULL)
 	{
 		for (i = 0; i < t1; i++)
@@ -33,4 +33,5 @@ char *str_concat(char *s1, char *s2)
 	}
 	else
 		return (NULL);
+	free(s);
 }
