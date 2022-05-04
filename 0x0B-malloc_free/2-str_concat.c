@@ -20,8 +20,6 @@ char *str_concat(char *s1, char *s2)
 	t3 = t1 + t2 + 1;
 	s = malloc(t3);
 
-	if (s == NULL)
-		return (NULL);
 	if (s != NULL)
 	{
 		for (i = 0; i < t1; i++)
