@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * alloc_drid - A function returning apointer to a 2-D array of integers
+ * alloc_grid - A function returning apointer to a 2-D array of integers
  * @width: An integer input
  * @height: An integer input
  * Return: A pointer to 2-D int arrays, NULL on failure
@@ -13,7 +13,7 @@ int **alloc_grid(int width, int height)
 	int i, j;
 	int **s;
 
-	s = (int **)malloc(width * height * sizeof(int*));
+	s = (int **)malloc(width * height * sizeof(int *));
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
