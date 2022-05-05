@@ -15,15 +15,16 @@ char *argstostr(int ac, char **av)
 	int i, len;
 	char *s;
 
-	len = 0;
+	len = ac - 1;
 	s = malloc(sizeof(char) * len);
-	s[0] = '\0';
+	s[i] = '\0';
 
 	if (s == NULL)
 		return (NULL);
 	if (ac == 0 || av == 0)
 		return (NULL);
 	for (i = 0; i < ac; i++)
+		a[i] = atoi(av[i + 1]);
 		len += strlen(av[i]);
 	for (i = 0; av[i]; i++)
 		strcat(s, av[i]);
