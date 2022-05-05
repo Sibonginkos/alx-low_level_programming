@@ -20,10 +20,12 @@ char **strtow(char *str)
 	s = (char **)malloc(sizeof(char *) * (len + 1));
 	if (str == NULL || str == "")
 		return (NULL);
-	for (i = 0; str[i] != '\0'' i++)
-		if (str != ' ' || str != '\t' &&
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (str[i] != ' ' || str[i] != '\t' &&
 				(str[i + 1] == ' ' || str[i + 1] == '\t' || str[i + 1] == '\n'))
 			len++;
+	}
 	for (i = 0; str[i] != '\0' && i < len; i++)
 	{
 		s[i] = malloc(sizeof(char) * (len + 1));
