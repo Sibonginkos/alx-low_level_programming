@@ -18,11 +18,11 @@ char **strtow(char *str)
 	j = 0;
 
 	s = (char **)malloc(sizeof(char *) * (len + 1));
-	if (str == NULL || str == "")
+	if (str == NULL || str == '\0') 
 		return (NULL);
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[i] != ' ' || str[i] != '\t' &&
+		if ((str[i] != ' ' || str[i] != '\t') &&
 				(str[i + 1] == ' ' || str[i + 1] == '\t' || str[i + 1] == '\n'))
 			len++;
 	}
