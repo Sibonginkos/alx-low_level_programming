@@ -23,7 +23,6 @@ int main(int argc, char *argv[])
 		num2 = atoi(argv[2]);
 		mul = num1 * num2;
 		printf ("%d\n", mul);
-		return (0);
 	}
 	if ((num1 == 0 && num1 <= 9) && (num2 == 0 && num2 <= 9))
 		exit (0);
@@ -32,4 +31,5 @@ int main(int argc, char *argv[])
 		printf ("Error\n");
 		exit (98);
 	}
+	return (0);
 }
