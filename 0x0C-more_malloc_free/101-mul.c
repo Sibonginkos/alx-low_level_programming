@@ -25,4 +25,11 @@ int main(int argc, char *argv[])
 		printf("%d\n", mul);
 		return (0);
 	}
+	if ((num1 = 0 && num1 < 9) && (num2 = 0 && num2 < 9))
+		exit (0);
+	else
+	{
+		printf("Error\n");
+		exit (98);
+	}
 }
