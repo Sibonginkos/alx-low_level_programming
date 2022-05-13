@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_number - Prints number
+ * print_numbers - Prints number
  * @separator: String to be printed between numbers
  * @n: Number of integers passed to function
  * Return: Nothing
