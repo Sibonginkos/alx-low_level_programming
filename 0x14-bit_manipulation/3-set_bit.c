@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sett_bits - Gets the bit of a given index
+ * set_bit - Gets the bit of a given index
  * @n: An input integer
  * @index: Index
  * Return: The value of the bit at index
