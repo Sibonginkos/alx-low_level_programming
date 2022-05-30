@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * create_file - Creates a file 
+ * create_file - Creates a file
  * @filename: Name of file
  * @text_content: Content
  * Return: 1 on success, -1 on failure
@@ -22,7 +22,7 @@ int create_file(const char *filename, char *text_content)
 		len++;
 	fdw = write(fdo, text_content, len);
 	close(fdo);
-	if(fdw < 0)
+	if (fdw < 0)
 		return (-1);
 	return (1);
 }
